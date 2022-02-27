@@ -1,0 +1,54 @@
+/* Detector de presencia de elementos */
+@keyframes nodeInserted {  
+    from {  
+        outline-color: #fff; 
+    }
+    to {  
+        outline-color: #000;
+    } 
+}
+
+@-moz-keyframes nodeInserted {  
+    from {  
+        outline-color: #fff; 
+    }
+    to {  
+        outline-color: #000;
+    }  
+}
+
+@-webkit-keyframes nodeInserted {  
+    from {  
+        outline-color: #fff; 
+    }
+    to {  
+        outline-color: #000;
+    }  
+}
+
+@-ms-keyframes nodeInserted {  
+    from {  
+        outline-color: #fff; 
+    }
+    to {  
+        outline-color: #000;
+    } 
+}
+
+@-o-keyframes nodeInserted {  
+    from {  
+        outline-color: #fff; 
+    }
+    to {  
+        outline-color: #000;
+    }  
+} 
+
+/* Paso la animación al elemento para cuando aparezca */
+div[aria-label='Cuerpo del mensaje'] {
+    animation-name: nodeInserted;
+    -o-animation-name: nodeInserted;
+    -ms-animation-name: nodeInserted;        
+    -moz-animation-name: nodeInserted;
+    -webkit-animation-name: nodeInserted;
+}

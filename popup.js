@@ -1,1 +1,1 @@
-alert('Extensión abierta')
+// JS del cuadro de la extensión
